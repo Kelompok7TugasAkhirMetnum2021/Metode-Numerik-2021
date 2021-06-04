@@ -266,7 +266,6 @@ def trapesium_1pias():
     plt.fill_between([x1, x2], [fx1, fx2])
     plt.xlim([-15, 15]); plt.ylim([-2000,4000]);
     plt.title('Trapesium 1 Pias')
-    plt.show()
     plt.savefig('image\Trapesium1Pias.png')
     L = 0.5*(fx2 + fx1)*(x2 - x1)
     print("Luas dengan metode trapesium 1 pias:", L)
